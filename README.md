@@ -31,3 +31,7 @@ sudo systemctl enable --now docker
 sudo systemctl status docker
 ```
 
+5. Add Local User to Docker Group
+   ```
+   usermod -aG docker $USER
+   ```
